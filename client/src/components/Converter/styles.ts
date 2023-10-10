@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   converterContainer: {
     width: '100%',
-    height: '65%',
+    height: '90%',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center'
@@ -39,22 +39,22 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   valueText: {
-    marginRight: '8%',
+    marginRight: '15%',
+    fontWeight: '600'
   },
   dropdown: {
     borderLeftWidth: 1,
-    margin: 16,
     width: '40%',
     height: '100%',
   },
-  icon: {
-    marginRight: 5,
-  },
   placeholderStyle: {
+    fontWeight: '600',
     fontSize: 16,
+    marginLeft: 15,
   },
   selectedTextStyle: {
-    marginLeft: 10,
+    fontWeight: '500',
+    marginLeft: 15,
     fontSize: 16,
   },
   reverseBlock: {

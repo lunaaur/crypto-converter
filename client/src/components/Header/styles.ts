@@ -1,12 +1,9 @@
-import { useFonts } from "expo-font";
-import { useCallback } from "react";
 import { StyleSheet } from "react-native";
-import * as SplashScreen from 'expo-splash-screen';
 
 const styles = StyleSheet.create({
   headerContainer : {
     width: '100%',
-    height: '25%',
+    height: '30%',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center'
